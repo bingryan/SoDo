@@ -8,9 +8,6 @@ Hook functionality is also available for Scrapy's built-in Spider and CrawlSpide
 `sodo.spider.CrawlSpider` is equivalent to `scrapy.spiders.CrawlSpider`.
 
 
-为了使Scrapy内置的Spider 和 CrawlSpider 也可以使用 Hook 功能。`sodo.spider.Spider`等同于`scrapy.spiders.Spider`,
-`sodo.spider.CrawlSpider`等同于`scrapy.spiders.CrawlSpider`,
-
 ##  Kafka Spider
 
 `Kafka offset autocommit`：KafkaTopicSpider 和 KafkaTopicCrawlSpider
