@@ -52,9 +52,7 @@ If you want to contribute to `SoDo`, please see [CONTRIBUTING Doc](https://githu
 
 
 
-### wechat
 
-![wechat](docs/picture/wechat.JPG)
 
 
 

@@ -52,9 +52,6 @@ If you want to contribute to `SoDo`, please see [CONTRIBUTING Doc](https://githu
 
 
 
-### 微信交流群
-
-![ 微信交流群](../picture/wechat.JPG)
 
 
 

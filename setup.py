@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='SoDo',
-    version='1.0.0',
+    version='1.0.1',
     description=(
         'Redis-based  scheduler and Message queue Spider for Scrapy,  '
         'Provide more flexible and practical ways for Scrapy'),

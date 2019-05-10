@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from sodo.utils.connection import client_from_settings, get_client, kafka_consumer_from_settings, \
-    kafka_producer_from_settings
 from sodo.default_settings import SODO_CLIENT_PARAMS
+
+from sodo.utils.connection import (
+    client_from_settings, get_client, kafka_consumer_from_settings,
+    kafka_producer_from_settings, redis_client_from_settings
+)
 
 MOCK_SETTINGS = {
     "SODO_CLIENT_PARAMS": SODO_CLIENT_PARAMS
@@ -13,6 +16,10 @@ class TestGetClient(object):
 
     def test_get_redis_client(self):
         redis_server = client_from_settings(MOCK_SETTINGS)
+        assert isinstance(redis_server, get_client("redis"))
+
+    def test_redis_client_from_settings(self):
+        redis_server = redis_client_from_settings(MOCK_SETTINGS)
         assert isinstance(redis_server, get_client("redis"))
 
     def test_get_kafka_consumer_client(self):
