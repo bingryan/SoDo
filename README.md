@@ -4,7 +4,7 @@
 
 Redis-based  scheduler and Message queue Spider for Scrapy,  Provide more flexible and practical ways for Scrapy.
 
-For more information [Document](https://ycvbcvfu.github.io/SoDo):
+For more information [Document](https://ycvbcvfu.github.io/SoDo) [中文文档](https://ycvbcvfu.github.io/SoDo/#/zh-cn/):
 
 ## Requirements
 
