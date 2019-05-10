@@ -34,10 +34,12 @@ SODO_CLIENT_PARAMS = {
     "kafka_consumer": {
         "bootstrap_servers": ["127.0.0.1:9200"],
         "max_poll_records": 30,
+        "api_version": (0, 10, 1),
         "consumer_timeout_ms": 500,
     },
     "kafka_producer": {
         "bootstrap_servers": ["127.0.0.1:9200"],
+        "api_version": (0, 10, 1),
     }
 
 }
