@@ -222,4 +222,4 @@ time.sleep(1)
 ```
 发送之后，开始爬取，爬取完毕之后，Mongodb中sodo下`ycombinator`集合得到的就是爬取的数据,恭喜你完成一个基本案例!
 
-[完整代码](https://github.com/ycvbcvfu/SoDo/blob/master/examples/helloworld)
+[完整代码](https://github.com/ycvbcvfu/SoDo/tree/master/examples/helloworld)

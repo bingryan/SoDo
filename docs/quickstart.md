@@ -228,4 +228,4 @@ time.sleep(1)
 now,spider is `Running`,and `Mongodb`'s `ycombinator` collection at `sodo` db has some data you want .
 Congratulation！
 
-[Tutorial Code](https://github.com/ycvbcvfu/SoDo/blob/master/examples/helloworld)
+[Tutorial Code](https://github.com/ycvbcvfu/SoDo/tree/master/examples/helloworld)
