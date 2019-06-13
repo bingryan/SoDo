@@ -1,5 +1,7 @@
 # SoDo 
 
+[![Gitter](https://badges.gitter.im/Scrapy-SoDo/community.svg)](https://gitter.im/Scrapy-SoDo/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 ## Overview
 
 Redis-based  scheduler and Message queue Spider for Scrapy,  Provide more flexible and practical ways for Scrapy.

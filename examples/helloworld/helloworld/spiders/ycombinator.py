@@ -24,4 +24,9 @@ class CustomKafkaSpider(KafkaTopicSpider):
         item['title'] = response.css("a.storylink").extract_first("")
         item['url'] = response.url
         item['topic_message'] = response.meta.get("topic_message", "")
+
+        # TODO: 保留历史文件
+        # 可以返回两个item
+        # step1: 保留html
+
         yield item
