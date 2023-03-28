@@ -18,11 +18,11 @@ PyDispatcher==2.0.5
 PyHamcrest==1.9.0
 pyOpenSSL==19.0.0
 queuelib==1.5.0
-redis==3.2.1
+redis==4.5.3
 Scrapy==2.6.2
 service-identity==18.1.0
 six==1.12.0
-redis==3.2.1
+redis==4.5.3
 Twisted==22.10.0
 w3lib==1.20.0
 zope.interface==4.6.0
