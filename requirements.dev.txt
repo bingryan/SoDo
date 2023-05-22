@@ -33,7 +33,7 @@ pytest==4.4.2
 queuelib==1.5.0
 readme-renderer==24.0
 redis==4.5.3
-requests==2.21.0
+requests==2.31.0
 requests-toolbelt==0.9.1
 Scrapy==2.6.2
 service-identity==18.1.0
