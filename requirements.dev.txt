@@ -42,7 +42,7 @@ SoDo==1.0.0
 tqdm==4.31.1
 twine==1.13.0
 Twisted==22.10.0
-urllib3==1.26.5
+urllib3==1.26.17
 w3lib==1.20.0
 webencodings==0.5.1
 zope.interface==4.6.0
